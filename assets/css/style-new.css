@@ -718,6 +718,9 @@ main.touch .main-wrap {
 
 .company-image img{
     zoom:50%;
+    @media screen and (max-width:1500px){
+        zoom:30%;
+    }
 }
 .home-header .personal-image-wrap {
     top: 50%;
